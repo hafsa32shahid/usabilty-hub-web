@@ -1,0 +1,54 @@
+/* responsive for (large desktop laptop , 12000px and up) */
+@media screen and (max-width:1400px){
+    
+    .navbar .hamburgur{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    h1{
+        font-size: 2.3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    /* top navbar and banner */
+   .top-banner{
+    height: 73px;
+   }
+   .navbar{
+    justify-content: space-between;
+   }
+   .navbar .nav-links{
+    display: none;
+}
+  .navbar .hamburgur{
+    display: block;
+    margin-left: 20px;  
+   }
+  /* hero sectotion */
+  .container>.hero{
+    flex-direction: column-reverse;
+}
+.hero .left{
+    width: 100%;
+}
+.hero .right img{
+    width: 100%;
+    height: 100%;
+}
+.hero .left{
+    text-align: center;
+}
+.hero .left .hero-button{
+    width: 100%;
+    margin-bottom: 0px;
+}
+/* copanies section */
+.container .flex-companies{
+    
+}
+}
